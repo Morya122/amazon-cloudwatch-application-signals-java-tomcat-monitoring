@@ -1,4 +1,4 @@
-## My Project
+## Monitoring Java application running on Tomcat server using Amazon CloudWatch Application Signals
 
 TODO: Fill this README out!
 
