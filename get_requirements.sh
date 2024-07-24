@@ -41,7 +41,7 @@ install_git(){
 clone_repo(){
     echo "Cloning from Git Repo"
     # Clone the Git repository
-    sudo git clone https://github.com/spring-petclinic/spring-framework-petclinic.git $HOME/project
+    sudo git clonehttps://github.com/koddas/war-web-project.git $HOME/project
 }
 # Function to clone Git repository and build WAR file
 build_war() {
@@ -144,7 +144,7 @@ else
     build_war
 fi
 # Define paths
-war_file="$HOME/project/target/petclinic.war"
+war_file="$HOME/project/target/war-web-project.war"
 tomcat_directory="/opt/tomcat"
 webapps_directory="$tomcat_directory/webapps"
 # Move the WAR file from project directory to Tomcat webapps directory
