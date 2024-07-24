@@ -41,7 +41,7 @@ install_git(){
 clone_repo(){
     echo "Cloning from Git Repo"
     # Clone the Git repository
-    sudo git clonehttps://github.com/koddas/war-web-project.git $HOME/project
+    sudo git clone https://github.com/koddas/war-web-project.git $HOME/project
 }
 # Function to clone Git repository and build WAR file
 build_war() {
